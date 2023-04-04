@@ -1,6 +1,6 @@
 {
   "siteName": "Jambo Sender",
-  "siteUrl": "config.siteUrl",
+  "siteUrl": "https://jambosender.netlify.app",
   "siteTitleMeta": "Jambo Wallet Sender",
   "siteDescriptionMeta": "Jambo Wallet dapp used in sending tokens on Ixo network",
   "wcNamespace": "ixo",
