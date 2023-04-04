@@ -1,131 +1,48 @@
 {
-  "siteName": "config.siteName",
+  "siteName": "Jambo Sender",
   "siteUrl": "config.siteUrl",
-  "siteTitleMeta": "config.siteTitleMeta",
-  "siteDescriptionMeta": "config.siteDescriptionMeta",
+  "siteTitleMeta": "Jambo Wallet Sender",
+  "siteDescriptionMeta": "Jambo Wallet dapp used in sending tokens on Ixo network",
   "wcNamespace": "ixo",
-  "fontUrl": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap",
-  "fontName": "Roboto",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Lora&display=swap",
+  "fontName": "Lora",
   "headerShowName": true,
   "headerShowLogo": true,
-  "about": "config.about",
+  "about": "<strong>Jambo Sender </strong> Wallet is a decentralized wallet powered by <em>Ixo Network</em>",
   "termsAndConditions": "https://my.jambo.earth/legal/termsOfUse",
   "actions": [
-    {
-      "id": "eKXPPhewkJDLbE1bq1iboz",
+    {  
+
+      "id": "jamboSender",
+      "name": "Send via Jambo",
+      "description": "Send Ixo token",
+      "image": "wallet.png",
       "steps": [
-        {
-          "id": "select_token_and_amount",
-          "name": "Select token and amount"
-        },
+
         {
           "id": "get_receiver_address",
           "name": "Get receiver address"
+        },
+        {
+          "id": "select_token_and_amount",
+          "name": "Select token and amount"
         },
         {
           "id": "bank_MsgSend",
           "name": "Review and sign"
         }
-      ],
-      "name": "Send",
-      "description": "Crypto Send",
-      "image": "eKXPPhewkJDLbE1bq1iboa.png"
-    },
-    {
-      "id": "eKXPPhewkJDLbE1bq1ib78",
-      "steps": [
-        {
-          "id": "select_token_and_amount",
-          "name": "Select token and amount"
-        },
-        {
-          "id": "get_receiver_address",
-          "name": "Get receiver address"
-        },
-        {
-          "id": "bank_MsgMultiSend",
-          "name": "Review and sign"
-        }
-      ],
-      "name": "Multi Send",
-      "description": "Crypto Send",
-      "image": "eKXPPhewkJDLbE1bq1iboa.png"
-    },
-    {
-      "id": "eKXPPhewkJDLbE1bq1iboa",
-      "steps": [
-        {
-          "id": "get_validator_delegate",
-          "name": "Get validator address"
-        },
-        {
-          "id": "select_amount_delegate",
-          "name": "Define amount to delegate"
-        },
-        {
-          "id": "staking_MsgDelegate",
-          "name": "Review and sign"
-        }
-      ],
-      "name": "Delegate",
-      "description": "Delegate tokens on the IXO Network",
-      "image": "eKXPPhewkJDLbE1bq1iboa.png"
-    },
-    {
-      "id": "eKXPPhewkJDLbE1bq1ibob",
-      "steps": [
-        {
-          "id": "get_delegated_validator_undelegate",
-          "name": "Get delegation validator address"
-        },
-        {
-          "id": "select_amount_undelegate",
-          "name": "Define amount to undelegate"
-        },
-        {
-          "id": "staking_MsgUndelegate",
-          "name": "Review and sign"
-        }
-      ],
-      "name": "Undelegate",
-      "description": "Undelegate tokens on the IXO Network",
-      "image": "eKXPPhewkJDLbE1bq1ibob.png"
-    },
-    {
-      "id": "eKXPPhewkJDLbE1bq1iboc",
-      "steps": [
-        {
-          "id": "get_delegated_validator_redelegate",
-          "name": "Get delegation validator address"
-        },
-        {
-          "id": "select_amount_redelegate",
-          "name": "Define amount to redelegate"
-        },
-        {
-          "id": "get_validator_redelegate",
-          "name": "Get validator address"
-        },
-        {
-          "id": "staking_MsgRedelegate",
-          "name": "Review and sign"
-        }
-      ],
-      "name": "Redelegate",
-      "description": "Redelegate tokens on the IXO Network",
-      "image": "eKXPPhewkJDLbE1bq1iboc.png"
-    },
-    {
-      "id": "eKXPPhewkJDLbE1bq1ibod",
-      "steps": [
-        {
-          "id": "distribution_MsgWithdrawDelegatorReward",
-          "name": "Review and sign"
-        }
-      ],
-      "name": "Claim Rewards",
-      "description": "Claim rewards on your delegations.",
-      "image": "eKXPPhewkJDLbE1bq1ibod.png"
-    }
-  ]
+       ]
+
+      }
+    ]
 }
+    
+ 
+
+
+
+
+
+
+
+
